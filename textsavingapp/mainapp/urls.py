@@ -3,7 +3,7 @@ from .views import CreateView,SnippetOverviewView,DetailView,UpdateView,DeleteVi
 
 urlpatterns = [
    path('create',CreateView.as_view(),name='create'),
-   path('snippets', SnippetOverviewView.as_view()),
+   path('snippets', SnippetOverviewView.as_view(),name="snippets"),
    path('details/<int:id>', DetailView.as_view(), name='detail'),
    path('update/<int:id>', UpdateView.as_view(), name='update'),
    path('delete/<int:id>', DeleteView.as_view(), name='delete'),
