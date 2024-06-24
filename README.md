@@ -55,7 +55,7 @@ ________________________________________Project Setup___________________________
 To set up the project locally, follow these steps:
 
 1.Clone the repository:
- git clone https://github.com/nooBask/admaren-interview.git
+ git clone https://github.com/akshaymohan29/admaren-interview.git
 2.Navigate to the project directory:
   cd admaren interview 
 3.Activate the virtual environment:
